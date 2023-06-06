@@ -1,0 +1,7 @@
+2023-06-06 20:46:23,020 INFO [http-nio-8088-exec-1] c.e.r.LoggingAspect [LoggingAspect.java:28] CompanyService.login(..)
+2023-06-06 20:46:52,551 INFO [http-nio-8088-exec-5] c.e.r.LoggingAspect [LoggingAspect.java:33] CompanyService.addCompany(..)
+2023-06-06 20:46:59,754 INFO [http-nio-8088-exec-6] c.e.r.LoggingAspect [LoggingAspect.java:28] CompanyService.login(..)
+2023-06-06 20:47:42,897 INFO [http-nio-8088-exec-1] c.e.r.LoggingAspect [LoggingAspect.java:23] RealtorService.addRealtor(..)
+2023-06-06 20:48:34,141 INFO [http-nio-8088-exec-3] c.e.r.LoggingAspect [LoggingAspect.java:18] RealtorService.login(..)
+2023-06-06 20:51:29,807 INFO [http-nio-8088-exec-7] c.e.r.LoggingAspect [LoggingAspect.java:43] TenantService.addTenant(..)
+2023-06-06 20:51:37,181 INFO [http-nio-8088-exec-2] c.e.r.LoggingAspect [LoggingAspect.java:38] TenantService.login(..)
