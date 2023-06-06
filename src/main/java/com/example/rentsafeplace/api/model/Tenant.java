@@ -32,12 +32,5 @@ public class Tenant {
     @Column(name = "photo")
     private String photo;
 
-    public Tenant(String email, String password, String name, String phone, String photo) {
-        this.email = email;
-        this.password = password;
-        this.name = name;
-        this.phone = phone;
-        this.photo = photo;
-    }
 
 }

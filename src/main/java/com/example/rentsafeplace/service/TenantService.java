@@ -4,7 +4,6 @@ import com.example.rentsafeplace.api.model.Building;
 import com.example.rentsafeplace.api.model.Company;
 import com.example.rentsafeplace.api.model.Realtor;
 import com.example.rentsafeplace.api.model.Tenant;
-import com.example.rentsafeplace.api.repository.BuildingRepository;
 import com.example.rentsafeplace.api.repository.TenantRepository;
 import com.example.rentsafeplace.api.security.SecurityConfiguration;
 import org.springframework.beans.factory.annotation.Autowired;

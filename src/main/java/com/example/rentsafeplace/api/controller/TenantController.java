@@ -1,7 +1,6 @@
 package com.example.rentsafeplace.api.controller;
 
 import com.example.rentsafeplace.api.model.Building;
-import com.example.rentsafeplace.api.model.Company;
 import com.example.rentsafeplace.api.model.Realtor;
 import com.example.rentsafeplace.api.model.Tenant;
 import com.example.rentsafeplace.service.TenantService;
@@ -11,7 +10,6 @@ import org.springframework.http.MediaType;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
-import org.springframework.security.core.parameters.P;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
 

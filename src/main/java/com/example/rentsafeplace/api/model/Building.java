@@ -58,19 +58,5 @@ public class Building {
     @Column(name = "address")
     private String address;
 
-    public Building(Realtor realtor, Tenant tenant, String type, Integer square, Integer price, Boolean isPetAllowed, String photo, String description, Boolean isLeased, String category, String city, String address) {
-        this.realtor = realtor;
-        this.tenant = tenant;
-        this.type = type;
-        this.square = square;
-        this.price = price;
-        this.isPetAllowed = isPetAllowed;
-        this.photo = photo;
-        this.description = description;
-        this.isLeased = isLeased;
-        this.category = category;
-        this.city = city;
-        this.address = address;
-    }
 
 }

@@ -31,10 +31,4 @@ public class Subscription {
     @Column(name = "end_date", nullable = false)
     private String endDate;
 
-    public Subscription(Company company, SubscriptionType subscriptionType, String startDate, String endDate) {
-        this.company = company;
-        this.subscriptionType = subscriptionType;
-        this.startDate = startDate;
-        this.endDate = endDate;
-    }
 }

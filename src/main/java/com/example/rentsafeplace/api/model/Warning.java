@@ -29,10 +29,4 @@ public class Warning {
     @Column(name = "type", nullable = false)
     private String type;
 
-    public Warning(Building building, String message, String time, String type) {
-        this.building = building;
-        this.message = message;
-        this.time = time;
-        this.type = type;
-    }
 }

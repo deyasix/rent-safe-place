@@ -26,10 +26,4 @@ public class SubscriptionType {
     @Column(name = "term")
     private String term;
 
-    public SubscriptionType(String name, Integer price, String term) {
-        this.name = name;
-        this.price = price;
-        this.term = term;
-    }
-
 }
