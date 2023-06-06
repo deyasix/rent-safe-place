@@ -26,11 +26,6 @@ public class Company {
     @Column(name = "password", nullable = false)
     private String password;
 
-    public Company(String email, String name, String password) {
-        this.email = email;
-        this.name = name;
-        this.password = password;
-    }
 
 
 }
